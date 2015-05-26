@@ -3319,7 +3319,8 @@ navbar { margin-bottom: 0; border-bottom: 1px solid rgba(255, 255, 255, 0.3); te
 .post-title {  margin: 0; }
 .post-title a { text-decoration: none;}
 
-.post-excerpt p { margin: 1.6rem 0 0 0; font-size: 0.9em; line-height: 1.6em; color: #828282; }
+.post-excerpt p { margin: 1.6rem 0 0 0; font-size: 0.9em; line-height: 2em; color: #828282; width: 70%; }
+.post-excerpt img { float: left; margin: 0px 15px 15px 0px; width:15em;}
 
 .post-meta { display: inline-block; margin: 0 0 5px 0; font-family: 'Open Sans', sans-serif; font-size: 1.5rem; color: #9EABB3; }
 .post-meta a { color: #9EABB3; text-decoration: none; }
