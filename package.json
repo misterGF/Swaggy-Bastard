@@ -1,6 +1,6 @@
 {
-  "name": "Swaggy Bastard",
-  "version": "1.0",
+  "name": "SwaggyBastard",
+  "version": "1.0.0",
   "description": "A Boilerplate Theme for Ghost forked from Bastard",
   "author": {
     "name": "Gil",
@@ -25,6 +25,7 @@
     "grunt-autoprefixer": "^0.7.3",
     "grunt-contrib-imagemin": "^0.7.0",
     "grunt-svgmin": "^0.4.0",
-    "grunt-contrib-cssmin": "^0.9.0"
+    "grunt-contrib-cssmin": "^0.9.0",
+    "materialize-css":"*"
   }
 }
