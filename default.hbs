@@ -28,15 +28,25 @@
 
     {{! scrolling}}
     <script src="{{asset "/js/jquery.min.js"}}"></script>
-    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-    <script type="text/javascript" src="{{asset "/js/move-top.js"}}"></script>
-    <script type="text/javascript" src="{{asset "/js/easing.js"}}"></script>
     <script type="text/javascript">
         jQuery(document).ready(function($) {
             $(".scroll").click(function(event){ 
                 event.preventDefault();
-                $('html.body').animate({scrollTop:$(this.hash).offset().top},1000);
+                $('html.body').animate({scrollTop:$(this.hash).offset().top},600);
             });
+        });
+    {{! scrollTop}}
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $('.toTop').click(function () {
+                $("html, body").animate({
+                    scrollTop: 0
+                }, 600);
+            return false;
+            });
+
         });
     </script>
 
@@ -79,7 +89,8 @@
                  <section class="poweredby">Proudly published with <a class="icon-ghost" href="http://ghost.org">Ghost</a> and the <a href="http://github.com/misterGF/swaggy-bastard"><strong>Swaggy Bastard</strong></a> Theme</section>
             </div>
             <div class="row">
-                <a id="scroll-to-top" class="pull-right" href="#top"><i class="fa fa-chevron-circle-up fa-2x"></i></a>
+
+                 <a id="toTop" class="toTop" href="#"><i class="fa fa-chevron-circle-up fa-2x"></i></a>
 
             </div>
         </div>

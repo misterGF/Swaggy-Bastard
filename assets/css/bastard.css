@@ -2227,6 +2227,8 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 
 .pull-left { float: left; }
 
+.toTop { float: right;}
+
 .fa.pull-left { margin-right: .3em; }
 .fa.pull-right { margin-left: .3em; }
 
