@@ -7,7 +7,7 @@ Swaggy Bastard is a fork of <a href="https://github.com/karloespiritu/Bastard">B
 It mostly contains UI changes to make the theme look a lighter.
 ## Demo
 
-I'm using this theme for my personal site, [gferreira.me](http://gferreira.me)
+A demo can be seen here. [swag.gferreira.me](http://swag.gferreira.me)
 ![gferreira.me screenshot](http://res.cloudinary.com/gatec21/image/upload/v1416866665/gil_blog_lfkr9g.png)
 
 ## Download
